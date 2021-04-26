@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-const port = 3000;
+const port = process.env.port || 3000;
 
 
 // respond with "hello world" when a GET request is made to the homepage
